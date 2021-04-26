@@ -6,5 +6,4 @@
 <li>HTML</li>
 <li>CSS</li>
 
-<br>
-<i>*the purpose of this project was not browser compatibility. for the best result please use Firefox Developer Edition / Firefox / Google Chrome.
+<sup>*the purpose of this project was not browser compatibility. for the best result please use Firefox Developer Edition / Firefox / Google Chrome.</sup>
