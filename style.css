@@ -54,6 +54,14 @@
   text-transform: uppercase;
   text-decoration: none;
   cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+.btn:hover {
+  color: #4f4f4f;
+  background-color: #fff;
+  /* create btn border */
+  box-shadow: inset 0px 0px 0px 3px #4f4f4f;
+
 }
 .copyright {
   min-height: 2em;
@@ -74,18 +82,20 @@
 }
 
 /* RESPONSIVE */
-/* make image smaller on tablet */
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 768px) {
   .character {
     width: 80%;
   }
 }
 
-@media only screen and (min-width: 860px) {
+@media only screen and (min-width: 992px) {
   .main__content {
     display: flex;
   }
   .main__content {
     align-items: center;
+  }
+  .copyright {
+    margin-top: 0;
   }
 }
